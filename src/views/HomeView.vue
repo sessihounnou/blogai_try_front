@@ -1,10 +1,19 @@
 <script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
+import Header from "../components/Header.vue";
 </script>
 
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-    <p class="text-red-500">hello</p>
-  </main>
+  <Header />
 </template>
+
+<script>
+export default {
+  name: "Home",
+  components: {
+    Header
+  },
+  data() {
+    return {};
+  },
+};
+</script>
