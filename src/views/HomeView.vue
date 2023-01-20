@@ -1,11 +1,40 @@
-<script setup>
+<script>
+import axios from "axios";
+export default {
+  name: "Home",
+  // mounted () {
+  //   this.get_data()
+  // },
+  data (){
+    return  {
+      article : {},
+    }
+  } ,
+  mounted() {
+    this.get_data()
+    this.article=this.get_data()
+  },
+  methods:{
+    async get_data () {
+          axios({
+      method: 'get',
+      url: 'http://localhost:8080/articles',
+      responseType: 'json'
+    })
+      .then(function (response) {
+         console.log(response.data)
+         return response.data
+      });
+    }
+  }
+};
 </script>
 
 <template>
   <section>
     <!-- Title -->
 <div class="pt-32  bg-white">
-<h1 class="text-center text-2xl font-bold text-gray-800">Toutes Les catégories </h1>
+<h1 class="text-center text-2xl font-bold text-gray-800">Toutes Les catégories {{ article }}</h1>
 </div>
 
 <!-- Tab Menu -->
@@ -59,6 +88,7 @@
     <h1 class="text-3xl font-bold text-gray-800 cursor-pointer ">Flores</h1>
     <h2 class="text-xl text-gray-800 font-semibold">by Stuar Manson</h2>
     <p class="text-lg font font-thin">Lorem ipsum carrots, enhanced undergraduate developer, but they do occaecat time and vitality, Lorem ipsum carrots,</p>
+    <button @click="get_data()">text</button>
   </div>
   </div>
 </div>

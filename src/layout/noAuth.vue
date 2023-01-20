@@ -1,16 +1,8 @@
 <script>
+import axios from "axios";
 export default {
   name: "noAuth",
-  mounted () {
-    get_data()
-  },
-  methods:{
-    get_data () {
-      
-    }
-  }
 };
-
 </script>
 
 <template>
