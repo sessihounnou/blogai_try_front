@@ -17,8 +17,8 @@ export default {
     </a>
     <div class="mt-2 sm:mt-0 sm:flex sm:order-2">
       <!-- Login Button -->
-      <button type="button" class="rounde mr-3 hidden border border-blue-700 py-1.5 px-6 text-center text-sm font-medium text-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:inline-block rounded-lg">Login</button>
-      <button type="button" class="rounde mr-3 hidden bg-blue-700 py-1.5 px-6 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:mr-0 sm:inline-block rounded-lg">Register</button>
+      <button type="button" class="rounde mr-3 hidden border border-[#1d4ed8] py-1.5 px-6 text-center text-sm font-medium text-[#1d4ed8] focus:outline-none focus:ring-4 focus:ring-blue-300 sm:inline-block rounded-lg">Login</button>
+      <button type="button" class="rounde mr-3 hidden bg-[#1d4ed8] py-1.5 px-6 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:mr-0 sm:inline-block rounded-lg">Register</button>
       <!-- Register Button -->
       <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 sm:hidden" aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -28,16 +28,16 @@ export default {
     <div class="hidden w-full items-center justify-between sm:order-1 sm:flex sm:w-auto" id="navbar-sticky">
       <ul class="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 sm:mt-0 sm:flex-row sm:space-x-8 sm:border-0 sm:bg-white sm:text-sm sm:font-medium">
         <li>
-          <a href="#" class="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white sm:bg-transparent sm:p-0 sm:text-blue-700" aria-current="page">Home</a>
+          <a href="#" class="block rounded bg-[#1d4ed8] py-2 pl-3 pr-4 text-white sm:bg-transparent sm:p-0 sm:text-[#1d4ed8]" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="#" class="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 sm:p-0 sm:hover:bg-transparent sm:hover:text-blue-700">About</a>
+          <a href="#" class="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 sm:p-0 sm:hover:bg-transparent sm:hover:text-[#1d4ed8]">About</a>
         </li>
         <li>
-          <a href="#" class="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 sm:p-0 sm:hover:bg-transparent sm:hover:text-blue-700">Services</a>
+          <a href="#" class="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 sm:p-0 sm:hover:bg-transparent sm:hover:text-[#1d4ed8]">Services</a>
         </li>
         <li>
-          <a href="#" class="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 sm:p-0 sm:hover:bg-transparent sm:hover:text-blue-700">Contact</a>
+          <a href="#" class="block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 sm:p-0 sm:hover:bg-transparent sm:hover:text-[#1d4ed8]">Contact</a>
         </li>
       </ul>
     </div>
