@@ -43,6 +43,7 @@ export default {
     </div>
   </div>
   </nav>  
+  <div class="mt-[5%]"></div>
   <slot />
   
   <footer class="bg-white dark:bg-gray-900">

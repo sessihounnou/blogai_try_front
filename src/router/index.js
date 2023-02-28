@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ChatView from '../views/ChatView.vue'
 import noAuth from '../layout/noAuth.vue'
 
 const router = createRouter({
@@ -9,6 +10,12 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: HomeView,
+      meta: { layout: noAuth, public: true },
+    },
+    {
+      path: '/chat',
+      name: 'ChatView',
+      component: ChatView,
       meta: { layout: noAuth, public: true },
     },
     // {
