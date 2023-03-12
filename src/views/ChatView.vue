@@ -47,7 +47,7 @@ export default {
 };
 </script>
 <template>
-  <div class="flex py-10 w-full flex-col items-center justify-center gap-y-2">
+  <div class="flex py-40 w-full flex-col items-center justify-center gap-y-2">
     <div
       class="w-[50%] rounded-xl border border-gray-200 bg-white py-4 px-2 shadow-md shadow-gray-100"
     >
@@ -74,8 +74,8 @@ export default {
         type="text"
         class="w-full rounded-lg border border-gray-400 p-2"
         ref="prompt"
-        placeholder="Search ..."
-        @keypress.e=""
+        placeholder="Hello ! Dit moi en quoi je peut être utile pour vous."
+        @keydown.enter="expendTextarea"
       />
       <button
         class="ml-2 rounded-lg bg-blue-500 p-2 text-white hover:bg-blue-600"
